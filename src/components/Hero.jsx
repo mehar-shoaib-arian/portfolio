@@ -35,19 +35,32 @@ const Hero = () => {
 
             <div className="flex items-center gap-6 mt-10">
 
-              <button className="px-8 py-4 bg-cyan-500 rounded-xl font-semibold text-white hover:bg-cyan-600 transition duration-300 hover:scale-105">
+              {/* Download CV Button */}
+              <a
+                href="/cv.pdf"
+                download
+                className="px-8 py-4 bg-cyan-500 rounded-xl font-semibold text-white hover:bg-cyan-600 hover:scale-105 transition duration-300 cursor-pointer"
+              >
                 Download CV
-              </button>
+              </a>
 
+              {/* GitHub */}
               <a
                 href="https://github.com/mehar-shoaib-arian"
                 target="_blank"
                 rel="noreferrer"
               >
-                <FaGithub className="text-4xl text-slate-300 hover:text-cyan-400 transition duration-300" />
+                <FaGithub className="text-4xl text-slate-300 hover:text-cyan-400 transition duration-300 cursor-pointer" />
               </a>
 
-              <FaLinkedin className="text-4xl text-slate-300 hover:text-cyan-400 transition duration-300 cursor-pointer" />
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedin className="text-4xl text-slate-300 hover:text-cyan-400 transition duration-300 cursor-pointer" />
+              </a>
 
             </div>
           </div>
