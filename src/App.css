@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  font-family:Segoe UI, sans-serif;
+}
+
+section{
+  padding:100px 10%;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+}
+
+.gradient{
+  background:linear-gradient(to right,#38bdf8,#8b5cf6);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+
+.btn{
+  padding:12px 28px;
+  border:none;
+  border-radius:10px;
+  background:#38bdf8;
+  color:white;
+  cursor:pointer;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.btn:hover{
+  opacity:.9;
+}
+
+h2{
+  font-size:2.5rem;
+  margin-bottom:20px;
+}
+
+p{
+  color:#cbd5e1;
+  line-height:1.8;
+}
